@@ -1,0 +1,11 @@
+[project]
+name = "rage-new-puzzle-bot"
+version = "0.1.0"
+description = "Mystery Hunt site scraper that posts to Discord when there are new puzzles"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "beautifulsoup4>=4.14.3",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+]
